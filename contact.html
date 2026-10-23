@@ -23,8 +23,56 @@
 <section id="contact">
 <div class="eyebrow">Let's connect</div><h2>Have a project or opportunity in mind?</h2><p class="lead">Feel free to reach out about collaboration, learning opportunities, or entry-level IT experience.</p>
 <div class="contact-grid">
-<div class="panel"><h3>Contact details</h3><p>Replace the sample details below with the contact information you want to share publicly.</p><div class="contact-method"><span class="contact-icon">✉</span><div><strong>Email</strong><span>your.email@example.com</span></div></div><div class="contact-method"><span class="contact-icon">⌘</span><div><strong>GitHub</strong><span>github.com/yourusername</span></div></div><div class="contact-method"><span class="contact-icon">in</span><div><strong>LinkedIn</strong><span>linkedin.com/in/yourusername</span></div></div></div>
-<div class="panel"><h3>Send a message</h3><form id="contact-form"><label for="name">Your name<input id="name" name="name" placeholder="Enter your name" required=""/></label><label for="email">Your email<input id="email" name="email" placeholder="you@example.com" required="" type="email"/></label><label for="message">Message<textarea id="message" name="message" placeholder="What would you like to talk about?" required=""></textarea></label><button class="btn primary" type="submit">Prepare email ↗</button><p class="form-note" id="form-note">This form opens your email app; it does not send messages directly from this preview.</p></form></div>
+<div class="panel">
+  <h3>Contact details</h3>
+  <p>Replace the sample details below with the contact information you want to share publicly.</p>
+
+  <a class="contact-method" href="mailto:your.email@example.com" aria-label="Email">
+    <span class="contact-icon" aria-hidden="true">✉</span>
+    <span class="contact-meta">
+      <strong>Email</strong>
+      <span>your.email@example.com</span>
+    </span>
+  </a>
+
+  <a class="contact-method" href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <span class="contact-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" role="img" focusable="false">
+        <path fill="currentColor" d="M12 1.8C6.5 1.8 1.8 6.5 1.8 12c0 4.5 2.9 8.3 6.9 9.7.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.2-1.5-1.2-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.2-.2-4.6-1.1-4.6-4.9 0-1.1.4-2 1.1-2.7-.1-.3-.5-1.3.1-2.6 0 0 .9-.3 2.7 1a9.2 9.2 0 0 1 5 0c1.8-1.3 2.7-1 2.7-1 .6 1.3.2 2.3.1 2.6.7.7 1.1 1.6 1.1 2.7 0 3.8-2.4 4.7-4.6 4.9.4.4.7 1 .7 2.1v3.1c0 .3.2.6.7.5 4-1.4 6.9-5.2 6.9-9.7 0-5.5-4.7-10.2-10.2-10.2Z"/>
+      </svg>
+    </span>
+    <span class="contact-meta">
+      <strong>GitHub</strong>
+      <span>github.com/yourusername</span>
+    </span>
+  </a>
+
+  <a class="contact-method" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <span class="contact-icon" aria-hidden="true">in</span>
+    <span class="contact-meta">
+      <strong>LinkedIn</strong>
+      <span>linkedin.com/in/yourusername</span>
+    </span>
+  </a>
+</div>
+<div class="panel">
+  <h3>Send a message</h3>
+  <form id="contact-form">
+    <label for="name">
+      Your name
+      <input id="name" name="name" placeholder="Enter your name" required="" />
+    </label>
+    <label for="email">
+      Your email
+      <input id="email" name="email" placeholder="you@example.com" required="" type="email" />
+    </label>
+    <label for="message">
+      Message
+      <textarea id="message" name="message" placeholder="What would you like to talk about?" required=""></textarea>
+    </label>
+    <button class="btn primary" type="submit">Send ↗</button>
+  </form>
+</div>
 </div>
 </section>
 </main>
